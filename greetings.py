@@ -10,7 +10,7 @@ else: print(f'Your name is: {input_name}')
 
 print('----- PART 3 -----')
 x = list()
-for y in range(11):
+for y in range(len(x)):
     input_name = input('What is your name? ')
     x.append(input_name)
     if len(x) == 10:
@@ -21,7 +21,7 @@ print('It was nice to meet all of you')
 
 print('----- PART 4 -----')
 v = list()
-for z in range(99):
+for z in range(len(v)):
     input_name = input('What is your name? ')
     if input_name in v:
         print('name is already given')
